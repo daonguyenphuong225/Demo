@@ -6,7 +6,7 @@ git config --global user.name "tên"
 git config --global user.email "email cac em su dung"
 
 git commit -m "Nội dung comment"                         //tạo 1 bản ghi chú 
-git remote add origin "link trang git"                  //liên kết dưới máy với github trên mạng
+git remote add origin link trang git                  //liên kết dưới máy với github trên mạng
 
 .......... bắt đầu nhập mk GIT
 git push -u origin master                               //Đẩy comit lên github
