@@ -1,8 +1,14 @@
 .textColor{
     color: black;
+    font-weight: 600;
 }
 .buttonColor{
-    background-color:#fb007a ;
+    box-shadow: 0 5px 20px 0 rgb(19 168 116 / 20%);
+    background: linear-gradient(to top, rgba(255, 0, 122, 1) 0%, rgba(142, 0, 116, 1) 100%);
+    color: white;
+}
+.icon-color{
+    color: rgba(255, 0, 122, 1);
 }
 .textColor:hover{
     background-color: transparent;
@@ -25,10 +31,19 @@
 .img-border{
     width: 330.75px;
     height: 220.27px;
-    position: relative;
+   
 }
 .blog-date{
-    height: 30px;
-    width: 50px;
+    border-radius: 5px 5px 5px 5px;
+    text-align: center;
+    position: absolute;
+    left: 30px;
+    min-width: 80px;
 
+    background: linear-gradient(to top, rgba(255, 0, 122, 1) 0%, rgba(142, 0, 116, 1) 100%);
+    font-family: 'Rozha One', serif;
+    font-size: 18px;
+    line-height: 35px;
+    color: white;
 }
+
